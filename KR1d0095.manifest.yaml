@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR1d0095/v1
+canonical_location: https://kanripo.org/bkk/KR1d0095/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 廣林一卷
+  identifiers:
+    krp: KR1d0095
+  tags:
+    kr-categories: KR1d
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1d0095.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR1d0095_001.yaml, hash: 'sha256:b5a0fb384c0864d4e57432d2f61fb137a706f8c8bccdd3a61accd8217c2ffd19'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1d0095_001.markers.yaml, hash: 'sha256:68cbb5e7cdf0507b53a55d304e981f6c9a4d62739b440bc4731e51971e078152'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1d0095_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1827
+  label: 廣林
+  type: section
+  level: 1
+hash: sha256:5bc1ad90823a41f03037a38792fe0669dc7e1f822bcd5577902646224eccabde
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
